@@ -9,7 +9,12 @@
 
 void print_line(int n)
 {
-	int i;
+	if (n <= 0)
+	{
+		_putchar('\n');
+	}
+	{
+		int i;
 
 	while (i < n)
 	{
@@ -17,4 +22,5 @@ void print_line(int n)
 		i++;
 	}
 	_putchar('\n');
+	}
 }
