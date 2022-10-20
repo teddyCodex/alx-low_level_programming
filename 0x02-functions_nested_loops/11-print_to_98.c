@@ -10,29 +10,39 @@
  */
 void print_to_98(int n)
 {
-		while (n <= 98)
+	if (n < 98)
+	{
+		int a = n;
+
+		for (; a <= 98; a++)
 		{
-			printf("%d", n);
-			if (n == 98)
+			printf("%d", a);
+			if (a == 98)
 			{
 				break;
 			}
+			{
 				putchar(',');
 				putchar(' ');
-				n++;
+			}
 		}
 		putchar('\n');
+	}
+	{
+		int b = n;
 
-		while (n > 98)
+		for (; b >= 98; b--)
 		{
-			printf("%d", n);
-			if (n == 98)
+			printf("%d", b);
+			if (b == 98)
 			{
 				break;
 			}
-			putchar(',');
-			putchar(' ');
-			n--;
+			{
+				putchar(',');
+				putchar(' ');
+			}
 		}
 		putchar('\n');
+	}
 }
