@@ -3,6 +3,7 @@
 /**
  * _isdigit - Entry point
  * function to check for a digit (0 thru 9)
+ * @c: character to be evaluated
  * Return: Always 0 (Success)
  */
 
