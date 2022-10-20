@@ -3,6 +3,7 @@
 /**
  * print_numbers - Entry point
  * function that prints numbers from 0 to 9 using _putchar
+ * @i: value to be evaluated
  * Return: Always 0 (Success)
  */
 
