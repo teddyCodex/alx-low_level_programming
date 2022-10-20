@@ -1,10 +1,11 @@
 #include "main.h"
 
 /**
- * _isupper - Entry point
- * program to check for UPPERCASE character
- * @c: character to be evaluated
- * Return: 1 (true) || 0 (false)
+ * _isupper - check for uppercase character
+ *
+ * @c: input number as an integer.
+ *
+ * Return: Always (0)
  */
 
 int _isupper(int c)
