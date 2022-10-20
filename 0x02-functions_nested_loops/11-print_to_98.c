@@ -26,7 +26,6 @@ void print_to_98(int n)
 				putchar(' ');
 			}
 		}
-		putchar('\n');
 	}
 	{
 		int b = n;
