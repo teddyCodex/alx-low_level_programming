@@ -8,5 +8,9 @@
 
 void _puts(char *str)
 {
-	_puts(str);
+	int i;
+
+	while (str[i] != '\0')
+		i++;
+		_puts(str[i]);
 }
