@@ -22,5 +22,5 @@ int factorial(int n)
 	{
 		i = n * factorial(n - 1);
 	}
-	return (x);
+	return (i);
 }
